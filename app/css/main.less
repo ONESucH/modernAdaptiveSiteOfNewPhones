@@ -65,9 +65,10 @@
     text-align: center;
     width: 40%;
     margin: 0 30% 5% 30%;
+    color: #8c8f94;
   }
   a {
-    margin-left:43%;
+    margin-left: 43%;
     text-decoration: none;
     color: black;
     border: 1px solid silver;
@@ -84,12 +85,12 @@
 
 .two-section {
   position: relative;
-  background-color: #f4f5f6;
+  background-color: #fff;
   ul {
-    position: relative;
+    display: inline-flex;
     margin: 0 15% 0 15%;
     border-bottom: 1px solid #f4f4f4;
-    padding-top: 5%;
+    padding-top: 4%;
   }
   li {
     display: inline-block;
@@ -97,7 +98,6 @@
     width: 43%;
     height: auto;
     padding: 15% 3%;
-    background-color: rgba(255, 99, 0, 0.5);
     &:nth-child(1) {
       background: url(../img/two-section/lock_1.png);
       background-position: top 15% left 6%;
@@ -112,7 +112,179 @@
     }
   }
   p {
-    float: left;
     margin-bottom: 8%;
+    color: #8c8f94;
+  }
+}
+
+.three-section {
+  position: relative;
+  display: inline-flex;
+  padding-top: 10%;
+  .image-iphone {
+    background: url(../img/three-section/iphone_image.png);
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+  }
+  ul {
+    width: 50%;
+  }
+  li {
+    list-style: none;
+    color: #26272d;
+    margin: 18% 0 20% 10%;
+    width: 65%;
+  }
+  h1 {
+    width: 55%;
+    font-weight: 500;
+    margin-bottom: 15%;
+  }
+  button {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 6%;
+    padding: 1.5% 2% 1.5% 2%;
+    border: none;
+    outline: none;
+    margin-right: 5%;
+    border-radius: 20px;
+  }
+  p {
+    color: #8c8f94;
+    margin-bottom: 8%;
+  }
+}
+
+.one-button {
+  background: #267df4;
+  color: white;
+  width: 35%;
+  i {
+    margin-left: 15%;
+  }
+}
+
+.two-button {
+  color: black;
+  width: 25%;
+}
+
+.four-section {
+  position: relative;
+  display: inline-flex;
+  padding-top: 10%;
+  .image-iphone {
+    background: url(../img/four-section/world_map.png);
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+  }
+  ul {
+    width: 50%;
+  }
+  li {
+    list-style: none;
+    color: #26272d;
+    margin: 0 0 20% 25%;
+    width: 65%;
+  }
+  h1 {
+    width: 55%;
+    font-weight: 500;
+    margin-bottom: 15%;
+  }
+  p {
+    color: #8c8f94;
+    margin-bottom: 8%;
+  }
+  h5 {
+    background: url(../img/four-section/elephant.png), url(../img/four-section/dropbox.png);
+    background-position: left 40% bottom, left bottom;
+    background-size: 25%, 25%;
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+    font-weight: 900;
+  }
+}
+
+.five-section {
+  position: relative;
+  text-align: center;
+  padding: 10% 0 10% 0;
+  background: url(../img/five-section/iphones.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #f5f5f8;
+  h1 {
+    font-weight: 500;
+    margin: 2%;
+  }
+  h5 {
+    font-weight: 500;
+    margin: 2% 2% 60% 2%;
+    color: #8c8f94;
+  }
+  h6 {
+    color: #b3b4b9;
+    margin-bottom: 2%;
+  }
+}
+
+.decoration-block {
+  position: relative;
+  background: #267df4;
+  margin: 0 48% 0 48%;
+  padding: 0.2%;
+}
+
+.mail-block {
+  margin: 5% 30% 5% 30%;
+  border: 1px solid silver;
+  border-radius: 30px;
+  padding: 0.2% 0.2% 0.2% 1%;
+  input {
+    outline: none;
+    border: none;
+    background: none;
+    color: red;
+    padding: 2%;
+    width: 58%;
+  }
+  button {
+    width: 37%;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: #6fc754;
+    color: white;
+    padding: 3%;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  i {
+    font-size: 120%;
+    margin-left: 40%;
+  }
+}
+
+.button-app-store {
+  width: 15%;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background-color: #131315;
+  color: white;
+  padding: 1% 1.5% 1% 1.5%;
+  font-weight: 900;
+  cursor: pointer;
+  span {
+    float: left;
+    margin-right: 6%;
+    font-size: 200%;
   }
 }
