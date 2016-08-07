@@ -12,7 +12,7 @@
 }
 .one-section {
   position: relative;
-  background: url(../img/one-section/logo_3.png);
+  background-image: url(../img/one-section/logo_3.png);
   background-position: center bottom;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -98,13 +98,13 @@
   padding: 15% 3%;
 }
 .two-section li:nth-child(1) {
-  background: url(../img/two-section/lock_1.png);
+  background-image: url(../img/two-section/lock_1.png);
   background-position: top 15% left 6%;
   background-size: 8%;
   background-repeat: no-repeat;
 }
 .two-section li:nth-child(2) {
-  background: url(../img/two-section/klock_2.png);
+  background-image: url(../img/two-section/klock_2.png);
   background-position: top 15% left 6%;
   background-size: 8%;
   background-repeat: no-repeat;
@@ -119,7 +119,7 @@
   padding-top: 10%;
 }
 .three-section .image-iphone {
-  background: url(../img/three-section/iphone_image.png);
+  background-image: url(../img/three-section/iphone_image.png);
   background-position: top center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -171,7 +171,7 @@
   padding-top: 10%;
 }
 .four-section .image-iphone {
-  background: url(../img/four-section/world_map.png);
+  background-image: url(../img/four-section/world_map.png);
   background-position: top center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -196,7 +196,7 @@
   margin-bottom: 8%;
 }
 .four-section h5 {
-  background: url(../img/four-section/elephant.png), url(../img/four-section/dropbox.png);
+  background-image: url(../img/four-section/elephant.png), url(../img/four-section/dropbox.png);
   background-position: left 40% bottom, left bottom;
   background-size: 25%, 25%;
   background-repeat: no-repeat;
@@ -207,7 +207,7 @@
   position: relative;
   text-align: center;
   padding: 10% 0 10% 0;
-  background: url(../img/five-section/iphones.png);
+  background-image: url(../img/five-section/iphones.png);
   background-position: top 35% center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -322,4 +322,227 @@
   margin: 5%;
   width: 21%;
   height: auto;
+}
+.seven-section {
+  position: relative;
+  display: inline-flex;
+  background: #f4f4f5;
+  width: 100%;
+  padding-top: 10%;
+}
+.choose-your-perfect-plan {
+  position: relative;
+  width: 33.333%;
+  margin: 0 0 10% 10%;
+  padding-top: 5%;
+}
+.choose-your-perfect-plan h1 {
+  width: 80%;
+  font-weight: 500;
+  margin-bottom: 16%;
+}
+.choose-your-perfect-plan h5 {
+  padding: 15% 0 15% 0;
+  color: #8c8f94;
+}
+.choose-your-perfect-plan p {
+  margin-top: 15%;
+  color: #a9abaf;
+}
+.choose-your-perfect-plan a {
+  margin-left: 3%;
+  color: #267df4;
+  cursor: pointer;
+}
+.two_button {
+  border-radius: 20px;
+  width: 48.5%;
+  padding: 0.2%;
+  border: 1px solid silver;
+  background: #f4f4f5;
+  margin-top: 5%;
+}
+.two_button button {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 5% 5% 5% 4%;
+  border-radius: 20px;
+  color: #cacacb;
+  cursor: pointer;
+}
+.two_button button:hover {
+  background: white;
+  color: #26292c;
+  box-shadow: 0 0 15px 1px silver;
+}
+.starter-block {
+  position: relative;
+  width: 33.333%;
+  margin: 0 0 10% 10%;
+  background: #fff;
+  text-align: center;
+  padding-top: 5%;
+  box-shadow: 8px 8px 30px 5px silver;
+  z-index: 2;
+}
+.starter-block h1 {
+  margin-bottom: 8%;
+  font-weight: 500;
+  color: #6b6c6f;
+}
+.starter-block h4 {
+  color: #26292c;
+  margin: 6% 0 6% 0;
+}
+.starter-block a {
+  color: #26272d;
+  text-decoration: none;
+  border: 1px solid #dededf;
+  padding: 2% 8% 2% 8%;
+  border-radius: 20px;
+}
+.starter-block i {
+  color: #6fc754;
+  margin-right: 1.5%;
+}
+.starter-block p {
+  margin: 20% 20% 8% 20%;
+  color: #8c8f94;
+}
+.starter-block button {
+  color: #ebebed;
+  background: #267df4;
+  border-radius: 20px;
+  padding: 3% 12% 3% 12%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 6.5%;
+}
+.pro-block {
+  position: relative;
+  width: 33.333%;
+  margin: 2% 10% 11% 0;
+  text-align: center;
+  padding-top: 3%;
+  background-color: #ebebed;
+  z-index: 1;
+}
+.pro-block h1 {
+  margin-bottom: 8%;
+  font-weight: 500;
+  color: #6b6c6f;
+}
+.pro-block h4 {
+  color: #26292c;
+  margin: 6% 0 6% 0;
+}
+.pro-block a {
+  color: #26272d;
+  text-decoration: none;
+  border: 1px solid #dededf;
+  padding: 2% 8% 2% 8%;
+  border-radius: 20px;
+}
+.pro-block i {
+  color: #6fc754;
+  margin-right: 1.5%;
+}
+.pro-block p {
+  margin: 20% 20% 8% 20%;
+  color: #8c8f94;
+}
+.pro-block button {
+  text-decoration: none;
+  color: #4c8df3;
+  padding: 3% 12% 3% 12%;
+  border-radius: 20px;
+  border: 1px solid #267df4;
+  background: none;
+}
+.eight-section {
+  position: relative;
+  background-color: #fff;
+  padding-bottom: 5%;
+}
+.eight-section h1 {
+  text-align: center;
+  padding: 3% 0 3% 0;
+  color: #26292c;
+}
+.eight-section h5 {
+  text-align: center;
+  color: #8c8f94;
+}
+.mail-block-two {
+  margin: 0 30% 2% 30%;
+  border: 1px solid #cdcdd1;
+  border-radius: 30px;
+  padding: 0.2% 0.2% 0.2% 1%;
+}
+.mail-block-two input {
+  outline: none;
+  border: none;
+  background: none;
+  padding: 2%;
+  width: 53%;
+}
+.mail-block-two button {
+  width: 42.1%;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background-color: #6fc754;
+  color: white;
+  padding: 3% 1.5% 3% 1.5%;
+  font-weight: 900;
+  cursor: pointer;
+}
+.nine-section {
+  position: relative;
+  padding-top: 5%;
+  border-bottom: 1px solid #f4f4f4;
+  border-top: 1px solid #f4f4f4;
+  margin: 0 10% 0 10%;
+}
+.nine-section ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  border: 1px solid orange;
+}
+.nine-section li {
+  display: inline-block;
+  width: 33%;
+}
+.new-providence {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  border: 1px solid blue;
+}
+.new-providence h1 {
+  font-weight: 100;
+  color: black;
+}
+.new-providence h1span {
+  font-weight: 900;
+  color: black;
+}
+.button-app-store-two {
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  background-color: #131315;
+  color: white;
+  padding: 1% 1.5% 1% 1.5%;
+  font-weight: 900;
+  cursor: pointer;
+}
+.button-app-store-two span {
+  float: left;
+  margin-right: 6%;
+  font-size: 200%;
 }
