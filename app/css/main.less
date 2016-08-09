@@ -327,15 +327,21 @@
 }
 
 .carousel-of-three-pictures {
+  display: block;
   overflow: hidden;
-  width: 81%;
-  height: 220px;
-  margin: 2% 10% 2% 10%;
+  width: 100%;
   img {
     border-radius: 50%;
-    margin: 5%;
-    width: 21%;
-    height: auto;
+    float: left;
+    margin: 0.4% 0.4% 0.4% 1.4%;
+    width: 18%;
+    animation: rotate 10s infinite linear;
+    cursor: pointer;
+    transform: rotateZ(-10deg);
+    &:hover {
+      animation-play-state: paused;
+      border: 1px solid orange;
+    }
   }
 }
 
@@ -657,33 +663,6 @@
   .button-app-store-two {
     width: 100%;
   }
-
-  .carousel-of-three-pictures {
-    height: 170px;
-    img {
-      margin: 3%;
-    }
-  }
-}
-
-@media (max-width: 810px) {
-  .one-section {
-    ul {
-      padding-top: 1%;
-    }
-    li {
-      font-size: 85%;
-      padding: 0.1%;
-    }
-  }
-
-  .four-section h1 {
-    width: 100%;
-  }
-
-  .two-section li:nth-child(1) {
-    background-position: top 10% left 6%;
-  }
 }
 
 @media (max-width: 980px) {
@@ -768,12 +747,6 @@
 
   .button-app-store {
     width: 26%;
-  }
-
-  .carousel-of-three-pictures {
-    width: 100%;
-    height: 120px;
-    margin: 2% 0 2% 0;
   }
 
   .six-section p {
@@ -954,14 +927,6 @@
     font-size: 300%;
   }
 
-  .carousel-of-three-pictures {
-    width: 100%;
-    margin: 0;
-    img {
-      width: 35%;
-    }
-  }
-
   .six-section p {
     width: 100%;
     margin: 0;
@@ -1031,5 +996,17 @@
 
   .ten-section p {
     font-size: 60%;
+  }
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotateZ(20deg);
+  }
+}
+
+@-webkit-keyframes rotate {
+  50% {
+    transform: rotateZ(20deg);
   }
 }
